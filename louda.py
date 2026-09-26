@@ -50,8 +50,8 @@ sys.stderr.reconfigure(line_buffering=True)
 BOT_START_TIME = datetime.now()
 
 # ===== CONFIGURATION (Railway ENV Variables) =====
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7498292917:AAGWekncUCC5CQrliMV4Un7dnhP5HhHACFQ")
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://mentalyadav130_db_user:YWLmTCt0mxmeq7vj@cluster0.wjgcovn.mongodb.net/?appName=Cluster0")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7416553328:AAGhKLgxSptY-hHu47mh9-CEGTZikobM47w")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://arjunyadav70677449_db_user: S08j4Sc5WSvEuwA8@cluster0.bpqxgnd.mongodb.net/?appName=Cluster0")
 BOT_OWNER = int(os.getenv("BOT_OWNER", "2043886515"))
 
 print("=" * 50, flush=True)
